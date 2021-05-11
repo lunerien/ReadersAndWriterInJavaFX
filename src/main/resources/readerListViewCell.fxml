@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="pane" prefHeight="18.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <Label fx:id="readerNameLabel" layoutY="5.0" prefHeight="18.0" prefWidth="59.0" />
+  <ProgressBar fx:id="progressBar" layoutX="28.0" layoutY="5.0" prefHeight="18.0" prefWidth="135.0" progress="0.0" GridPane.columnIndex="4" />
+  <Label fx:id="valueLabel" layoutX="228.0" layoutY="5.0" prefHeight="18.0" prefWidth="356.0" GridPane.columnIndex="5" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
